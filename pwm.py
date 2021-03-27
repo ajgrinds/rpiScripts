@@ -2,7 +2,7 @@
 pin = 12
 frequencyHz = 1500
 
-from RPi.GPIO import GPIO
+import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BOARD)
